@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* hero */
+@media screen and (min-width: 769px) {
+    section .container{
+        width: 50%;
+        height: 500px;
+    }
+
+
+    /* navbar */
+    nav ul {
+        width: 66.7%;
+        left: 50%;
+    }
+
+    nav {
+        margin-left: 25%;
+    }
+}
+/* end hero */
+
+
+
+/* navbar */
+nav {
+    border-radius: 30px;
+    margin-bottom: -16px;
+}
+
+
+nav ul {
+    list-style: none;
+    background: #4c4c48bb;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(61, 55, 55);
+}
+
+nav ul li a span {
+    font-size: 13px;
+
+}
+
+i {
+    font-size: 20px;
+}
+/* end navbar */
+
+
+
+
+/* timer */
+.waktu {
+    margin-top: 80px;
+}
+
+#demo {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* end timer */
+
+
+
+
+/* mempelai */
+.mempelai img{
+    border-radius: 50%;
+}
+
+/* end mempelai */
